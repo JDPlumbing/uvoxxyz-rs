@@ -1,5 +1,4 @@
 use crate::types::Cartesian;
-use std::f64::consts::PI;
 
 /// Minimal quaternion struct for 3D orientation.
 #[derive(Debug, Clone, Copy, PartialEq)]
