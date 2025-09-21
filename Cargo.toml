@@ -1,0 +1,20 @@
+[package]
+name = "uvoxxyz"
+version = "0.1.0"
+edition = "2024"
+authors = ["Dr. Ippy <jdplumbingsoflo@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/JDPlumbing/uvoxxyz-rs"
+description = "Bridge between UVoxID spherical space and Cartesian XYZ + quaternions"
+
+[dependencies]
+uvoxid = "0.2"        # your crate
+glam = "0.27"         # lightweight math (Vec3, Quat)
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "convert_bench"
+harness = false
