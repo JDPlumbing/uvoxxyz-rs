@@ -6,6 +6,7 @@ authors = ["Dr. Ippy <jdplumbingsoflo@gmail.com>"]
 license = "MIT"
 repository = "https://github.com/JDPlumbing/uvoxxyz-rs"
 description = "Bridge between UVoxID spherical space and Cartesian XYZ + quaternions"
+categories = ["science", "simulation", "mathematics"]
 
 [dependencies]
 uvoxid = "0.2"        # your crate
