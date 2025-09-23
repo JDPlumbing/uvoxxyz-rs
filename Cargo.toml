@@ -1,6 +1,6 @@
 [package]
 name = "uvoxxyz"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Dr. Ippy <jdplumbingsoflo@gmail.com>"]
 license = "MIT"
@@ -18,4 +18,8 @@ criterion = "0.5"
 
 [[bench]]
 name = "convert_bench"
+harness = false
+
+[[bench]]
+name = "enu_bench"
 harness = false
